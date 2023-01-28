@@ -22,33 +22,33 @@
 /web/sites/*/cache
 
 # Ignore drupal core (if not versioning drupal sources)
-/web/vendor
-/web/core
-/web/modules/README.txt
-/web/profiles/README.txt
-/web/sites/development.services.yml
-/web/sites/example.settings.local.php
-/web/sites/example.sites.php
-/web/sites/README.txt
-/web/themes/README.txt
-/web/.csslintrc
-/web/.editorconfig
-/web/.eslintignore
-/web/.eslintrc.json
-/web/.gitattributes
-/web/.htaccess
-/web/.ht.router.php
-/web/autoload.php
-/web/composer.json
-/web/composer.lock
-/web/example.gitignore
-/web/index.php
-/web/INSTALL.txt
-/web/LICENSE.txt
-/web/README.txt
-/web/robots.txt
-/web/update.php
-/web/web.config
+# /web/vendor
+# /web/core
+# /web/modules/README.txt
+# /web/profiles/README.txt
+# /web/sites/development.services.yml
+# /web/sites/example.settings.local.php
+# /web/sites/example.sites.php
+# /web/sites/README.txt
+# /web/themes/README.txt
+# /web/.csslintrc
+# /web/.editorconfig
+# /web/.eslintignore
+# /web/.eslintrc.json
+# /web/.gitattributes
+# /web/.htaccess
+# /web/.ht.router.php
+# /web/autoload.php
+# /web/composer.json
+# /web/composer.lock
+# /web/example.gitignore
+# /web/index.php
+# /web/INSTALL.txt
+# /web/LICENSE.txt
+# /web/README.txt
+# /web/robots.txt
+# /web/update.php
+# /web/web.config
 
 # Ignore vendor dependencies and scripts
 /vendor
