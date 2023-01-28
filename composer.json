@@ -23,6 +23,7 @@
         "drupal/core-recommended": "^9.5",
         "drupal/field_group": "^3.4",
         "drupal/image_widget_crop": "^2.4",
+        "drupal/paragraphs": "^1.15",
         "drupal/pathauto": "^1.11",
         "drush/drush": "^11.4"
     },
