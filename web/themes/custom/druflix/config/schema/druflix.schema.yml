@@ -1,0 +1,5 @@
+# Schema for the configuration files of the Bootstrap Barrio Subtheme.
+
+druflix.settings:
+  type: bootstrap_barrio.settings
+  label: 'Druflix | Bootstrap Barrio settings'
