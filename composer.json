@@ -21,6 +21,7 @@
         "drupal/core-composer-scaffold": "^9.5",
         "drupal/core-project-message": "^9.5",
         "drupal/core-recommended": "^9.5",
+        "drupal/devel": "^5.0",
         "drupal/field_group": "^3.4",
         "drupal/image_widget_crop": "^2.4",
         "drupal/paragraphs": "^1.15",
