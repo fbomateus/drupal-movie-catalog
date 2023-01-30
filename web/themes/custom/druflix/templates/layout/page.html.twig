@@ -78,7 +78,7 @@
               {{ page.secondary_menu }}
               {{ page.top_header }}
               {% if page.top_header_form %}
-                <div class="form-inline navbar-form float-right">
+                <div class="form-inline navbar-form float-end">
                   {{ page.top_header_form }}
                 </div>
               {% endif %}
@@ -88,16 +88,16 @@
           </nav>
         {% endif %}
         <nav{{ navbar_attributes }}>
-          {% if container_navbar %}
+          {# {% if container_navbar %} #}
           <div class="container">
-          {% endif %}
+          {# {% endif %} #}
             {{ page.header }}
             {% if page.primary_menu or page.header_form %}
               <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#CollapsingNavbar" aria-controls="CollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
               <div class="collapse navbar-collapse" id="CollapsingNavbar">
                 {{ page.primary_menu }}
                 {% if page.header_form %}
-                  <div class="form-inline navbar-form float-right">
+                  <div class="form-inline navbar-form float-end">
                     {{ page.header_form }}
                   </div>
                 {% endif %}
@@ -106,9 +106,9 @@
             {% if sidebar_collapse %}
               <button class="navbar-toggler navbar-toggler-left collapsed" type="button" data-toggle="collapse" data-target="#CollapsingLeft" aria-controls="CollapsingLeft" aria-expanded="false" aria-label="Toggle navigation"></button>
             {% endif %}
-          {% if container_navbar %}
+          {# {% if container_navbar %} #}
           </div>
-          {% endif %}
+          {# {% endif %} #}
         </nav>
 {% endblock %}
 
@@ -142,17 +142,9 @@
 
 {% block footer %}
         <div class="{{ container }}">
-          {% if page.footer_first or page.footer_second or page.footer_third or page.footer_fourth %}
+          {% if page.footer %}
             <div class="site-footer__top clearfix">
-              {{ page.footer_first }}
-              {{ page.footer_second }}
-              {{ page.footer_third }}
-              {{ page.footer_fourth }}
-            </div>
-          {% endif %}
-          {% if page.footer_fifth %}
-            <div class="site-footer__bottom">
-              {{ page.footer_fifth }}
+              {{ page.footer }}
             </div>
           {% endif %}
         </div>
