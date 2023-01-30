@@ -32,3 +32,11 @@ color.preview:
     color/preview.js: {}
   dependencies:
     - color/drupal.color
+slickjs:
+  js:
+    /libraries/slickjs/js/jquery-3.6.3.min.js: {}
+    /libraries/slickjs/js/slick.min.js: {}
+  css:
+    component:
+      /libraries/slickjs/css/slick.css: {}
+      /libraries/slickjs/css/slick-theme.css: {}  
