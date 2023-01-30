@@ -1,15 +1,15 @@
 /* ---------- Color Module Styles ----------- */
 
 body {
-  color: #3b3b3b;
-  background: #292929;
+  color: #243B53;
+  background: #F5F7FA;
 }
 
 #page,
 #main-wrapper,
 .region-primary-menu .menu-item a.is-active,
 .region-primary-menu .menu-item--active-trail a {
-  background: #fff;
+  background: #F5F7FA;
 }
 
 .tabs ul.primary li a.is-active {
@@ -22,28 +22,28 @@ body {
 }
 
 #navbar-top {
-  background-color: #055a8e;
+  background-color: #fff;
 }
 
 #navbar-main {
-  background-color: #1d84c3;
+  background-color: #fff;
 }
 
 a,
 .link {
-  color: #0071b3;
+  color: #243B53;
 }
 
 a:hover,
 a:focus,
 .link:hover,
 .link:focus {
-  color: #018fe2;
+  color: #405d7a;
 }
 
 a:active,
 .link:active {
-  color: #23aeff;
+  color: #405d7a;
 }
 
 .page-item.active .page-link {
@@ -53,7 +53,7 @@ a:active,
 
 .page-link,
 .page-link:hover {
-  color: #0071b3;
+  color: #405d7a;
 }
 
 .sidebar .block {
